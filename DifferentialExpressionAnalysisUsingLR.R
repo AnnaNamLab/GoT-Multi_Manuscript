@@ -5,8 +5,8 @@
 # This code aims at identifying genes deregulated between mutant and wild type cells for each mutation target using Logistic Regression (LR) method.
 # Only cells from the sample in which the mutation is expected are retained in this analysis.
 # The code has been used for generating
-# (1) Figures 3B and 4H, and
-# (2) Results presented in Tables S5 and S6.
+# (1) Figures 3B and 4H, Figure S8 and
+# (2) Results presented in Tables S5, S6 and S7.
 
 # Define variables
 Variables <- list(
