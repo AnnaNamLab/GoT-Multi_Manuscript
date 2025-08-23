@@ -64,7 +64,7 @@ B. Inferring CNVs from cells' transcriptomes of a given patient
 
 Of note, the analysis is done in a loop for each patient separately.
 
-The code has been used for generating Figures S6 (left panels) and S8A.
+The code has been used for generating Figures S6 (left panels) and S10A.
 
 
 ## 7. DifferentialExpressionAnalysisUsingLR.R
@@ -73,9 +73,9 @@ This code aims at identifying genes deregulated between mutant and wild type cel
 
 The code has been used for generating
 
-(1) Figures 3B and 4H, and
+(1) Figures 3B and 4H, Figure S8 and
 
-(2) Results presented in Tables S5 and S6.
+(2) Results presented in Tables S5, S6 and S7.
 
 
 ## 8. PathwayEnrichmentAnalysis_PrerankedGSEA.R
