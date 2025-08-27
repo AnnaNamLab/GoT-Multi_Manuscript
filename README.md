@@ -108,3 +108,9 @@ This code constructs genotype frequency matrix for a selected sample, and genera
 ## 13. ML_Model_Performance_Visualization.py
 
 This code aggregates genotyping performance across multiple ML models (precision, recall, combined score) and visualizes model performance as heatmaps.
+
+
+---
+
+Note: For stacked barplots showing genotyping results (proportion distribution of MUT vs. WT) across samples for each target, refer to the GoT-Multi-ML repository: https://github.com/AnnaNamLab/GoT-Multi-ML
+
