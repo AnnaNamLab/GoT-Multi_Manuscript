@@ -87,3 +87,24 @@ A. Evaluating whether certain pathways are more enriched among deregulated genes
 B. Visualizing results as a heatmap
 
 The code has been used for generating Figure 3D, highlighting pathways in Figure 4H, and for generating results presented in Tables S5 and S6.
+
+
+## 9. 1_Doublet_Detection.py
+
+This code performs multi-method doublet detection (SOLO, DoubletDetection, Scrublet) on raw count AnnData objects, adds QC metrics (mitochondrial, ribosomal, optional hemoglobin), flags potential outliers using MAD thresholds, and provides a consensus doublet call (`doublet_intersected`).
+
+## 10. 2_GenotypingDataVisualization.py
+
+This code generates (i) UMAP projections colored by genotype calls (MUT / WT / Unprofiled) and (ii) a scatter plot comparing per-cell genotyping (GEN) UMI counts versus transcriptomic (GEX) UMI counts.
+
+## 11. 3_Genotyping_Across_CellStates_Visualization.py
+
+This code computes mutant vs wild-type cell proportions across cell states and cell types, normalizes per-target mutation distributions, and visualizes via heatmaps and per-target stacked MUT/WT barplots.
+
+## 12. 4_MutantCell_Frequency_Heatmap.py
+
+This code constructs genotype frequency matrix for a selected sample, and generates a co-occurrence heatmap of mutant cell frequencies across targets.
+
+## 13. 5_ML_Model_Performance_Visualization.py
+
+This code aggregates genotyping performance across multiple ML models (precision, recall, combined score) and visualizes model performance as heatmaps.
