@@ -112,5 +112,5 @@ This code aggregates genotyping performance across multiple ML models (precision
 
 ---
 
-Note: For stacked barplots showing genotyping results (proportion distribution of MUT vs. WT) across samples for each target, refer to the GoT-Multi-ML repository: https://github.com/AnnaNamLab/GoT-Multi-ML
+Note: For stacked barplots showing genotyping results (proportion distribution of MUT vs. WT) across samples for each target, refer to the "ml_genotyping.py" script of the GoT-Multi-ML repository: https://github.com/AnnaNamLab/GoT-Multi-ML
 
