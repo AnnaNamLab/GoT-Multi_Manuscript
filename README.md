@@ -114,3 +114,5 @@ This code aggregates genotyping performance across multiple ML models (precision
 
 Note: For stacked barplots showing genotyping results (proportion distribution of MUT vs. WT) across samples for each target, refer to the "ml_genotyping.py" script of the GoT-Multi-ML repository: https://github.com/AnnaNamLab/GoT-Multi-ML
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093294.svg)](https://doi.org/10.5281/zenodo.17093294)
+
