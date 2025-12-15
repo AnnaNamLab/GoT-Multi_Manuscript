@@ -64,7 +64,7 @@ B. Inferring CNVs from cells' transcriptomes of a given patient
 
 Of note, the analysis is done in a loop for each patient separately.
 
-The code has been used for generating Figures S6 (left panels) and S10A.
+The code has been used for generating Figures S6 (left panels) and S11.
 
 
 ## 7. DifferentialExpressionAnalysisUsingLR.R
