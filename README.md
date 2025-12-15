@@ -109,6 +109,9 @@ This code constructs genotype frequency matrix for a selected sample, and genera
 
 This code aggregates genotyping performance across multiple ML models (precision, recall, combined score) and visualizes model performance as heatmaps.
 
+## 14. GEXbasedSampleAssignment.py
+
+For CLL-RT1_S2 and CLL-RT2_S2, the cell populations were not hashed and therefore, no HTO data was available. For these samples, data integration and label transfer (scanpy.tl.ingest from Scanpy) were performed with the corresponding CLL-RT1_S1 and CLL2_S1 samples respectively to assign CLL or LBCL cell types, after applying the same processing steps as in `HTObasedSampleAssignment.R`.
 
 ---
 
